@@ -1,9 +1,30 @@
-## Your Website Goes Here!
+Agency Jekyll theme
+====================
 
-This repository will house your personal website for this course.
+Agency theme based on [Agency bootstrap theme ](https://startbootstrap.com/template-overviews/agency/)
 
-If you are reading this, the name of the repository should be ```people-<Your GithubID>```. If that's what you see, you should already be logged into your Github account and have your own repository (this one). You're good to get started modifying this repository to make your own website!
+# How to use
 
-If you don't see your Github ID at the end of the repository name, you need to follow [this link to Github Classroom](https://classroom.github.com/a/AiQxMQc4) to create your own private repository.
+###Portfolio 
 
-If you don't know what any of this means, come to office hours or send us a message on [Piazza](https://piazza.com/barnard/spring2023/comsbc3997)! We're here to help!
+Portfolio projects are in '/_posts'
+
+Images are in '/img/portfolio'
+
+###About
+
+Images are in '/img/about/'
+
+###Team
+
+Team members and info are in '_config.yml'
+
+Images are in '/img/team/'
+
+
+# Demo
+
+View this jekyll theme in action [here](https://y7kim.github.io/agency-jekyll-theme)
+
+=========
+For more details, read [documentation](http://jekyllrb.com/)
