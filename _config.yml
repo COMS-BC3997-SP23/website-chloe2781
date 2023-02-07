@@ -11,13 +11,13 @@ people:
 - name: Chloe
   pic: 1
   position: Developer
-#  social:
-#    - title: twitter
-#      url: #
-#    - title: facebook
-#      url: #
-#    - title: stack-overflow
-#      url: #
+  social:
+    - title: linkedin
+      url: https://www.linkedin.com/in/chloe-nguyen2781/
+    - title: instagram
+      url: https://www.instagram.com/mchaauuu/
+    - title: github
+      url: https://github.com/chloe2781
 
 #- name: Larry Parker
 #  pic: 2
