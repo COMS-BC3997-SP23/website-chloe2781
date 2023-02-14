@@ -26,6 +26,10 @@ p {
 p.large {
     font-size: 16px;
 }
+.img-small {
+    width: 50%;
+    height: auto;
+}
 
 a,
 a:hover,
