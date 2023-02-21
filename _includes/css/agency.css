@@ -125,7 +125,7 @@ fieldset[disabled] .btn-primary.active {
 .btn-xl {
     padding: 20px 40px;
     border-color: #{{ site.data.template.color.primary }};
-    border-radius: 3px;
+    border-radius: 20px;
     text-transform: uppercase;
     font-family: {{ site.data.template.font.primary }};
     font-size: 18px;
@@ -256,7 +256,7 @@ fieldset[disabled] .btn-xl.active {
     }
 
     .navbar-default .navbar-nav>.active>a {
-        border-radius: 3px;
+        border-radius: 20px;
     }
 
     .navbar-default.navbar-shrink {
@@ -781,7 +781,7 @@ ul.social-buttons li a:active {
     padding: 100px 0;
     min-height: 100%;
     border: 0;
-    border-radius: 0;
+    border-radius: 20px;
     text-align: center;
     background-clip: border-box;
     -webkit-box-shadow: none;
