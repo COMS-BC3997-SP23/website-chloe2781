@@ -352,12 +352,13 @@ section h2.section-heading {
     margin-top: 0;
     margin-bottom: 15px;
     font-size: 40px;
+    font-family: "Source Serif Pro",Georgia,"Times New Roman",Times,serif;
 }
 
 section h3.section-subheading {
     margin-bottom: 75px;
     text-transform: none;
-    font-family: {{ site.data.template.font.secondary }};
+    font-family: "Source Sans Pro",Helvetica,Arial,sans-serif;
     font-size: 16px;
     font-style: italic;
     font-weight: 400;
@@ -372,6 +373,7 @@ section h3.section-subheading {
 .service-heading {
     margin: 15px 0;
     text-transform: none;
+    font-family: {{ site.data.template.font.primary }};
 }
 
 #portfolio .portfolio-item {
