@@ -5,7 +5,7 @@
  */
 @font-face {
     font-family: 'Source Sans Pro';
-    src: url('/fonts/Source_Sans_Pro') format('truetype');
+    src: url('/fonts/Source_Sans_Pro/SourceSansPro-Black.ttf') format('truetype');
     /* Add additional src declarations for other file formats */
     font-weight: normal;
     font-style: normal;
@@ -13,7 +13,7 @@
 
 @font-face {
     font-family: 'Source Serif Pro';
-    src: url('/fonts/Source_Serif_Pro') format('truetype');
+    src: url('/fonts/Source_Serif_Pro/SourceSerifPro-Light.ttf') format('truetype');
     /* Add additional src declarations for other file formats */
     font-weight: normal;
     font-style: normal;
