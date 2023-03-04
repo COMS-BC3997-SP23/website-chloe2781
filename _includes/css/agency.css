@@ -3,6 +3,24 @@
  * Code licensed under the Apache License v2.0.
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700&display=swap');
+
+@font-face {
+    font-family: 'Source Sans Pro';
+    src: url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700&display=swap') format('woff2'),
+    url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700&display=swap') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Define "Source Serif Pro" font family */
+@font-face {
+    font-family: 'Source Serif Pro';
+    src: url('source-serif-pro.woff2') format('woff2'),
+    url('source-serif-pro.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
 
 body {
     overflow-x: hidden;
@@ -180,7 +198,7 @@ fieldset[disabled] .btn-xl.active {
 }
 
 .navbar-default .navbar-brand {
-    font-family: "Source Serif Pro", "Source Sans Pro", serif;
+    font-family: "Source Serif Pro", "Source Sans Pro", san-serif;
     color: #{{ site.data.template.color.primary }};
 }
 
@@ -230,6 +248,7 @@ fieldset[disabled] .btn-xl.active {
     border-radius: 0;
     color: #fff;
     background-color: #{{ site.data.template.color.primary }};
+    font-family: {{ site.data.template.font.secondary }};
 }
 
 .navbar-default .navbar-nav>.active>a:hover,

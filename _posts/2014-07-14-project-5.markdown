@@ -1,6 +1,6 @@
 ---
 title: Week 5
-subtitle: App Development
+subtitle: UI Development (cont.)
 layout: default
 modal-id: 5
 date: 2023-02-27
@@ -10,7 +10,7 @@ alt: image-alt
 project-date: February 27, 2023
 
 [//]: # (client: Start Bootstrap)
-category: React Native Development
+category: UI Development
 description: This week I redesigned the pages so that it would look cleaner and clearer for user. I added a lot more details and even drew the nails designs on Procreate as a sample for this design. I'm a lot more satisfied with this design and will start to code it next week. It did take a long time to find the fonts and colors that fit to what I visioned.
 
 ---

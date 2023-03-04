@@ -7,5 +7,21 @@ color:
 
 # Font Families
 font:
-  primary: '"Source Serif Pro"'
-  secondary: '"Source Sans Pro"'
+  primary: 'Source Serif Pro'
+  secondary: 'Source Sans Pro'
+
+# Define "Source Sans Pro" font family
+@font-face:
+   font-family: 'Source Sans Pro';
+   src: url('path/to/source-sans-pro.woff2') format('woff2'),
+     url('path/to/source-sans-pro.woff') format('woff');
+   font-weight: normal;
+   font-style: normal;
+
+# Define "Source Serif Pro" font family
+@font-face:
+   font-family: 'Source Serif Pro';
+   src: url('path/to/source-serif-pro.woff2') format('woff2'),
+     url('path/to/source-serif-pro.woff') format('woff');
+   font-weight: normal;
+   font-style: normal;
