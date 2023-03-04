@@ -5,17 +5,16 @@
  */
 @font-face {
     font-family: 'Source Sans Pro';
-    src: url('source-sans-pro.woff2') format('woff2'),
-    url('source-sans-pro.woff') format('woff');
+    src: url('/fonts/Source_Sans_Pro') format('truetype');
+    /* Add additional src declarations for other file formats */
     font-weight: normal;
     font-style: normal;
 }
 
-/* Define "Source Serif Pro" font family */
 @font-face {
     font-family: 'Source Serif Pro';
-    src: url('source-serif-pro.woff2') format('woff2'),
-    url('source-serif-pro.woff') format('woff');
+    src: url('/fonts/Source_Serif_Pro') format('truetype');
+    /* Add additional src declarations for other file formats */
     font-weight: normal;
     font-style: normal;
 }
