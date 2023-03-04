@@ -1,12 +1,11 @@
 # Color settings (hex-codes without the leading hash-tag)
 color:
-  primary: 494F64
-  secondary: 838CA1
+  primary: 838CA1
+  secondary: 494F64
   secondary-dark: 333
   muted: 777
 
 # Font Families
 font:
-  primary: 'Source Serif Pro'
-  secondary: 'Source Sans Pro'
-
+  primary: '"Source Serif Pro", "Helvetica Neue",Helvetica,Arial,sans-serif'
+  secondary: '"Source Sans Pro", "Helvetica Neue", Helvetica,Arial,sans-serif'
