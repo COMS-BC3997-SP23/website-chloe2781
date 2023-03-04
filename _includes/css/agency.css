@@ -5,7 +5,7 @@
  */
 @font-face {
     font-family: 'Source Sans Pro';
-    src: url('/fonts/Source_Sans_Pro/SourceSansPro-Black.ttf') format('truetype');
+    src: url('../../fonts/Source_Sans_Pro/SourceSansPro-Black.ttf') format('truetype');
     /* Add additional src declarations for other file formats */
     font-weight: normal;
     font-style: normal;
@@ -13,14 +13,14 @@
 
 @font-face {
     font-family: 'Source Serif Pro';
-    src: url('/fonts/Source_Serif_Pro/SourceSerifPro-Light.ttf') format('truetype');
+    src: url('../../fonts/Source_Serif_Pro/SourceSerifPro-Light.ttf') format('truetype');
     /* Add additional src declarations for other file formats */
     font-weight: normal;
     font-style: normal;
 }
 body {
     overflow-x: hidden;
-    font-family: 'Source Serif Pro Pro',"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: 'Source Serif Pro',"Helvetica Neue",Helvetica,Arial,sans-serif;
     color: #{{ site.data.template.color.secondary-dark }};
 }
 
@@ -194,7 +194,7 @@ fieldset[disabled] .btn-xl.active {
 }
 
 .navbar-default .navbar-brand {
-    font-family: "Source Serif Pro","Helvetica Neue",Helvetica,Arial,cursive;
+    font-family: 'Source Serif Pro',"Helvetica Neue",Helvetica,Arial,cursive;
     font-weight: bold;
     color: #{{ site.data.template.color.primary }};
 }
@@ -245,7 +245,7 @@ fieldset[disabled] .btn-xl.active {
     border-radius: 0;
     color: #fff;
     background-color: #{{ site.data.template.color.primary }};
-    font-family: "source sans pro","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: 'Source Sans Pro',"Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
 .navbar-default .navbar-nav>.active>a:hover,
