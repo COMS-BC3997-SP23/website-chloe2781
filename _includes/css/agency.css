@@ -5,7 +5,7 @@
  */
 @font-face {
     font-family: 'Source Sans Pro';
-    src: url('../../fonts/Source_Sans_Pro/SourceSansPro-Black.ttf') format('truetype');
+    src: url('../../css/font-awesome/fonts/Source_Sans_Pro/SourceSansPro-Black.ttf') format('truetype');
     /* Add additional src declarations for other file formats */
     font-weight: normal;
     font-style: normal;
@@ -13,7 +13,7 @@
 
 @font-face {
     font-family: 'Source Serif Pro';
-    src: url('../../fonts/Source_Serif_Pro/SourceSerifPro-Light.ttf') format('truetype');
+    src: url('../../css/font-awesome/fonts/Source_Serif_Pro/SourceSerifPro-Light.ttf') format('truetype');
     /* Add additional src declarations for other file formats */
     font-weight: normal;
     font-style: normal;
@@ -396,8 +396,7 @@ section h3.section-subheading {
     -webkit-transition: all ease .5s;
     -moz-transition: all ease .5s;
     transition: all ease .5s;
-    background: rgba(254,209,54,.9); /* Fallback when no plugin support */
-    background: rgba({{ site.data.template.color.primary | hex_to_rgb | join: ',' }}, .9);
+    background: rgba(222,165,169,.9); /* Fallback when no plugin support */
 }
 
 #portfolio .portfolio-item .portfolio-link .portfolio-hover:hover {

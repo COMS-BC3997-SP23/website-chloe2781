@@ -4,6 +4,7 @@ color:
   secondary: 494F64
   secondary-dark: 333
   muted: 777
+  pink: DEA5A9
 
 # Font Families
 font:
