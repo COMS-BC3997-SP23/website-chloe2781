@@ -8,5 +8,5 @@ color:
 
 # Font Families
 font:
-  primary: '"Source Serif Pro", "Helvetica Neue",Helvetica,Arial,serif'
-  secondary: '"Source Sans Pro", "Helvetica Neue", Helvetica,Arial,sans-serif'
+  primary: '"Source Serif Pro"' #, "Helvetica Neue",Helvetica,Arial,serif'
+  secondary: '"Source Sans Pro"' #, "Helvetica Neue", Helvetica,Arial,sans-serif'
