@@ -20,7 +20,7 @@
 /*}*/
 body {
     overflow-x: hidden;
-    font-family: 'Source Sans Pro',"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: 'Source Sans Pro',sans-serif;
     color: #{{ site.data.template.color.secondary-dark }};
 }
 
@@ -71,8 +71,9 @@ h4,
 h5,
 h6 {
     /*text-transform: uppercase;*/
+    font-weight: 900;
     font-family: {{ site.data.template.font.primary }};
-    font-weight: 700;
+
 }
 
 .img-centered {
@@ -90,10 +91,10 @@ h6 {
 .btn-primary {
     border-color: #{{ site.data.template.color.primary }};
     /*text-transform: uppercase;*/
-    font-family: {{ site.data.template.font.primary }};
+    font-family: {{ site.data.template.font.secondary }};
     font-weight: 700;
     color: #fff;
-    background-color: #{{ site.data.template.color.primary }};
+    background-color: #{{ site.data.template.color.pink }};
 }
 
 .btn-primary:hover,
@@ -194,7 +195,7 @@ fieldset[disabled] .btn-xl.active {
 }
 
 .navbar-default .navbar-brand {
-    font-family: 'Source Serif Pro',"Helvetica Neue",Helvetica,Arial,cursive;
+    font-family: 'Source Serif Pro', serif;
     font-weight: bold;
     color: #{{ site.data.template.color.primary }};
 }
@@ -245,13 +246,14 @@ fieldset[disabled] .btn-xl.active {
     border-radius: 0;
     color: #fff;
     background-color: #{{ site.data.template.color.primary }};
-    font-family: 'Source Sans Pro',"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: 'Source Sans Pro',sans-serif;
 }
 
 .navbar-default .navbar-nav>.active>a:hover,
 .navbar-default .navbar-nav>.active>a:focus {
     color: #fff;
     background-color: #{{ site.data.template.color.secondary }};
+    font-family: 'Source Sans Pro',sans-serif;
 }
 
 @media(min-width:768px) {
@@ -373,6 +375,7 @@ section h3.section-subheading {
 .service-heading {
     margin: 15px 0;
     text-transform: none;
+    font-weight: 600;
     font-family: {{ site.data.template.font.primary }};
 }
 
