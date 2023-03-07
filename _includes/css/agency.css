@@ -3,24 +3,24 @@
  * Code licensed under the Apache License v2.0.
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
-@font-face {
-    font-family: 'Source Sans Pro';
-    src: url('../../css/font-awesome/fonts/Source_Sans_Pro/SourceSansPro-Black.ttf') format('truetype');
-    /* Add additional src declarations for other file formats */
-    font-weight: normal;
-    font-style: normal;
-}
+/*@font-face {*/
+/*    font-family: 'Source Sans Pro';*/
+/*    src: url('../../css/font-awesome/fonts/Source_Sans_Pro/SourceSansPro-Black.ttf') format('truetype');*/
+/*    !* Add additional src declarations for other file formats *!*/
+/*    font-weight: normal;*/
+/*    font-style: normal;*/
+/*}*/
 
-@font-face {
-    font-family: 'Source Serif Pro';
-    src: url('../../css/font-awesome/fonts/Source_Serif_Pro/SourceSerifPro-Light.ttf') format('truetype');
-    /* Add additional src declarations for other file formats */
-    font-weight: normal;
-    font-style: normal;
-}
+/*@font-face {*/
+/*    font-family: 'Source Serif Pro';*/
+/*    src: url('../../css/font-awesome/fonts/Source_Serif_Pro/SourceSerifPro-Light.ttf') format('truetype');*/
+/*    !* Add additional src declarations for other file formats *!*/
+/*    font-weight: normal;*/
+/*    font-style: normal;*/
+/*}*/
 body {
     overflow-x: hidden;
-    font-family: 'Source Serif Pro',"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: 'Source Sans Pro',"Helvetica Neue",Helvetica,Arial,sans-serif;
     color: #{{ site.data.template.color.secondary-dark }};
 }
 
@@ -352,13 +352,13 @@ section h2.section-heading {
     margin-top: 0;
     margin-bottom: 15px;
     font-size: 40px;
-    font-family: "Source Serif Pro",Georgia,"Times New Roman",Times,serif;
+    font-family: 'Source Serif Pro',Georgia,"Times New Roman",Times,serif;
 }
 
 section h3.section-subheading {
     margin-bottom: 75px;
     text-transform: none;
-    font-family: "Source Sans Pro",Helvetica,Arial,sans-serif;
+    font-family: 'Source Sans Pro',Helvetica,Arial,sans-serif;
     font-size: 16px;
     font-style: italic;
     font-weight: 400;
