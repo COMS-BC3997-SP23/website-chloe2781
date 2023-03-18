@@ -195,9 +195,9 @@ fieldset[disabled] .btn-xl.active {
 }
 
 .navbar-default .navbar-brand {
-    font-family: 'Source Serif Pro', serif;
+    font-family: 'Source Sans Pro', sans-serif;
     font-weight: bold;
-    color: #{{ site.data.template.color.primary }};
+    color: #{{ site.data.template.color.pink }};
 }
 
 .navbar-default .navbar-brand:hover,
@@ -242,7 +242,12 @@ fieldset[disabled] .btn-xl.active {
     color: #{{ site.data.template.color.primary }};
 }
 
-.navbar-default .navbar-nav>.active>a {
+.navbar-default {
+    border-radius: 0;
+    color: #fff;
+    font-family: 'Source Sans Pro',sans-serif;
+}
+.navbar-nav>.active>a {
     border-radius: 0;
     color: #fff;
     background-color: #{{ site.data.template.color.pink }};
