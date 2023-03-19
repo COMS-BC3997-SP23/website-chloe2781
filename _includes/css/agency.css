@@ -194,6 +194,10 @@ fieldset[disabled] .btn-xl.active {
     font-family: {{ site.data.template.font.primary }};
     font-weight: 200;
 }
+.logo-san-serif {
+    font-family: {{ site.data.template.font.secondary }};
+    font-weight: 600;
+}
 
 .navbar-default {
     border-color: transparent;
