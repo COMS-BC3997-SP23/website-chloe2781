@@ -191,11 +191,11 @@ fieldset[disabled] .btn-xl.active {
 }
 
 .logo-serif {
-    font-family: {{ site.data.template.font.primary }};
+    font-family: #{{ site.data.template.font.primary }} !important;
     font-weight: 200;
 }
 .logo-san-serif {
-    font-family: {{ site.data.template.font.secondary }};
+    font-family: #{{ site.data.template.font.secondary }} !important;
     font-weight: 600;
 }
 
