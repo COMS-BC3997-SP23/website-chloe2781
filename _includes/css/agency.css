@@ -141,8 +141,9 @@ fieldset[disabled] .btn-primary.active {
     padding: 20px 40px;
     border-color: #{{ site.data.template.color.pink }};
     border-radius: 20px;
+    font-style: None;
     /*text-transform: uppercase;*/
-    font-family: #{{ site.data.template.font.secondary }};
+    font-family: #{{ site.data.template.font.secondary }} !important;
     font-size: 18px;
     font-weight: 700;
     color: #fff;
@@ -232,7 +233,7 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default .nav li a {
     /*text-transform: uppercase;*/
-    font-family: {{ site.data.template.font.secondary }};
+    font-family: #{{ site.data.template.font.secondary }};
     font-weight: 400;
     letter-spacing: 1px;
     color: #fff;
@@ -374,7 +375,7 @@ section h2.section-heading {
 section h3.section-subheading {
     margin-bottom: 75px;
     text-transform: none;
-    font-family: 'Source Sans Pro',Helvetica,Arial,sans-serif;
+    font-family: 'Source Sans Pro',sans-serif;
     font-size: 16px;
     font-style: italic;
     font-weight: 400;
