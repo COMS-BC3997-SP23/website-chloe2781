@@ -11,6 +11,7 @@ project-date: March 27th, 2023
 
 [//]: # (client: Start Bootstrap)
 category: App Development
-description: This week I complete the design by adding more detailed frames. I added the design frame, which allow user to design every single nail. I also included the option for user to copy and paste the same design onto the other nail. Besides the design function, I added a search page design so people and easily look up designs or accounts so they can save the new inspirations or follow new accounts.
+description: This week was a lot of trials and fails and I wouldn’t say this is my proud moment. After searching through and using chatGPT, I finally found a tutorial to follow and I decided to switch to just the good old JavaScript. I started to implement the signIn and signUp page and it works so far. It made me very happy. The tech stack I’ve decided to use is React Native with JavaScript and the database is MongoDB.
+
 
 ---
