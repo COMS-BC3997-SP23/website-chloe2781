@@ -1,16 +1,16 @@
 ---
-title: Week 7
-subtitle: UI Development (cont.)
+title: Week 8
+subtitle: App Development
 layout: default
-modal-id: 7
+modal-id: 8
 date: 2023-03-13
-img: w7.png
-thumbnail: w7-thumbnail.png
+img: w8.png
+thumbnail: w8-thumbnail.png
 alt: image-alt
-project-date: March 20th, 2023
+project-date: March 27th, 2023
 
 [//]: # (client: Start Bootstrap)
-category: UI Development
+category: App Development
 description: This week I complete the design by adding more detailed frames. I added the design frame, which allow user to design every single nail. I also included the option for user to copy and paste the same design onto the other nail. Besides the design function, I added a search page design so people and easily look up designs or accounts so they can save the new inspirations or follow new accounts.
 
 ---
