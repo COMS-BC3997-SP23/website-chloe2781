@@ -1,0 +1,16 @@
+---
+title: Week 10
+subtitle: App Development (cont.)
+layout: default
+modal-id: 10
+date: 2023-03-13
+img: w10.png
+thumbnail: w10-thumbnail.png
+alt: image-alt
+project-date: April 10th, 2023
+
+[//]: # (client: Start Bootstrap)
+category: App Development
+description: This week I finished up the tutorial and have all the parts of a basic app up and running for both frontend and backend as well. The tutorial was very detailed and helpful, but because it was the earlier version of React Native, I had to look up more on syntax and ways to get around to have my app up and running completely. By the end of this week, I was able to have a fully functional app.
+
+---

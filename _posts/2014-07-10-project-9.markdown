@@ -11,6 +11,6 @@ project-date: April 3rd, 2023
 
 [//]: # (client: Start Bootstrap)
 category: App Development
-description: I followed to set up the SignUp, SignIn, Home page, Account page, forgot password, etc. In the Account page especially, I learned how to set up a user profile picture and you can change it too, which is really cool. I needed to set up some Cloudinary things though. I really would not have thought nor looked for that. The profile page also allows users to change the password which is really cool. Also I’m not implementing any frontend yet, just the functionality first.
+description: I followed a tutorial to set up the SignUp, SignIn, Home page, Account page, forgot password, etc. In the Account page especially, I learned how to set up a user profile picture and you can change it too, which is really cool. I needed to set up some Cloudinary things though. I really would not have thought nor looked for that. The profile page also allows users to change the password which is really cool. Also I’m not implementing any frontend yet, just the functionality first.
 
 ---
