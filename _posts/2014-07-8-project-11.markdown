@@ -1,0 +1,16 @@
+---
+title: Week 11
+subtitle: App Development (cont.)
+layout: default
+modal-id: 11
+date: 2023-04-17
+img: w11.png
+thumbnail: w11-thumbnail.png
+alt: image-alt
+project-date: April 17th, 2023
+
+[//]: # (client: Start Bootstrap)
+category: App Development
+description: This week I work on the frontend part for some of my pages after following the tutorial. I focused on the Home page and tried to see if I could do AR integration. The Home page works how I expected it to be visually. Functionality, I think it’s a little too complicated and ambitious to try and implement the social media part of my app as I would need more complicated algorithms to suggest posts to certain users. The Camera part, however, is a little too rough as none of the AR API works with the expo management system. Many are deprecated and not maintained well enough, such as expoThree. I will try to find more ways next week.
+
+---

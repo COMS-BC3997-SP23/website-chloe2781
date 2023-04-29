@@ -3,7 +3,7 @@ title: Week 8
 subtitle: App Development
 layout: default
 modal-id: 8
-date: 2023-03-13
+date: 2023-03-27
 img: w8.png
 thumbnail: w8-thumbnail.png
 alt: image-alt

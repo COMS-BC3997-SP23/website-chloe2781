@@ -1,0 +1,17 @@
+---
+title: Week 12
+subtitle: App Development (cont.)
+layout: default
+modal-id: 12
+date: 2023-04-24
+img: w12.png
+thumbnail: w12-thumbnail.png
+alt: image-alt
+project-date: April 24th, 2023
+
+[//]: # (client: Start Bootstrap)
+category: App Development
+description: This week I finished up all of the screens and boosted through the code. It was very addicting to keep adding more components to the app.
+I explored more options for AR integration, which is very limited. I explored Viro react, which is very useful for what I want because they have a snapchat like AR function. However Viro react doesn’t work with an expo management system, which is what I have, so I can’t use that. I didn’t know there was any difference between react native expo and bare react native. Expo is not very flexible with AR integration.
+
+---
